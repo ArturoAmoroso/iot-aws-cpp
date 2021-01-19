@@ -1,10 +1,10 @@
 #-----------------------------------------Certificates-------------------------------------
-cp /home/root/shared/* /home/root/aws-iot-device-sdk-cpp/certs/
+cp /home/root/shared/* /home/root/iot-aws-cpp/certs/
 
 #-----------------------------------------Build-SDK-------------------------------------
-cd /home/root/aws-iot-device-sdk-cpp/build/
+cd /home/root/iot-aws-cpp/build/
 cmake ../.
 make pub-sub-sample
 
-cd /home/root/aws-iot-device-sdk-cpp/build/bin/
+cd /home/root/iot-aws-cpp/build/bin/
 ./pub-sub-sample
