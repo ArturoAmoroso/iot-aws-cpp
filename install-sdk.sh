@@ -1,5 +1,6 @@
 #-----------------------------------------Certificates-------------------------------------
 cp /home/root/shared/* /home/root/iot-aws-cpp/certs/
+ls -l /home/root/iot-aws-cpp/certs/
 
 #-----------------------------------------Build-SDK-------------------------------------
 cd /home/root/iot-aws-cpp/build/

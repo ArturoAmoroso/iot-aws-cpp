@@ -6,5 +6,5 @@ tar -xvzf curl-7.74.0.tar.gz
 yes | rm *.gz
 cd curl-7.74.0/
 ./configure
-sudo make
-sudo make install
+make
+make install
