@@ -8,3 +8,5 @@ cd curl-7.74.0/
 ./configure
 make
 make install
+
+cd /home/root/iot-aws-cpp/
